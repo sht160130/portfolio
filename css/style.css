@@ -136,6 +136,7 @@ img {
 
 #skills img {
 	width:40%;
+	max-width:60px;
 }
 
 #vol-extra{
