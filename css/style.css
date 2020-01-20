@@ -53,6 +53,7 @@ h2{
 	font-family:'Montserrat',sans-serif;
 	font-weight:700;
 	color:#C38375;
+	padding:20px;
 }
 h3{
 	font-family:'Montserrat',sans-serif;
@@ -63,6 +64,9 @@ h4{
 	font-family:'Montserrat',sans-serif;
 	font-weight:500;
 	padding:10px;
+}
+a{
+	color:#C38375;
 }
 :target:before{
 	content:"";
@@ -156,7 +160,7 @@ img {
 /*Timeline-primary*/
 .timeline ul {
   /*background: #1B9AAA;*/
-  padding: 50px 0;
+  padding: 0px;
   color:#F5F5F1;
 }
 
@@ -249,6 +253,8 @@ time {
 .timeline ul li div { width: 250px; }
 
 .timeline ul li:nth-child(even) div { left: -289px; /*250+45-6*/
+
+
 }
 }
 
@@ -270,4 +276,19 @@ time {
 footer{
 	text-align:center;
 
+}
+
+/*BOOTSTRAP NAVBAR OVERRIDE*/
+.navbar-light .navbar-nav .active>.nav-link, 
+.navbar-light .navbar-nav .nav-link.active, .navbar-light 
+.navbar-nav .nav-link.show, .navbar-light .navbar-nav 
+.show>.nav-link{
+	color:#C38375;
+}
+
+.bg-light{
+	background-color: #F5F5F1!important;
+    border-bottom-color: #676f7f;
+    border-bottom-width: medium;
+    border-bottom-style: solid;
 }
