@@ -292,3 +292,9 @@ footer{
     border-bottom-width: medium;
     border-bottom-style: solid;
 }
+
+.navbar-brand img{
+	max-height:50px;
+	height:100%;
+	width:auto;
+}
