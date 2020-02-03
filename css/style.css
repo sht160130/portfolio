@@ -152,7 +152,7 @@ img {
 }
 
 .timeline{
-	background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("finland-highway.jpg");
+	background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("finland-highway2.jpg");
 	background-attachment:fixed;
 	background-size:cover;
 	background-position:center;
@@ -177,10 +177,10 @@ img {
   content: '';
   position: absolute;
   left: 50%;
-  bottom: 0;
+  top: 0;
   transform: translateX(-50%);
-  width: 30px;
-  height: 30px;
+  width: 15px;
+  height: 15px;
   border-radius: 50%;
   background:inherit;
 }
@@ -190,7 +190,7 @@ img {
   bottom: 0;
   width: 400px;
   padding: 15px;
-  background: #676f7f;
+  /*background: #676f7f;*/
 }
 
 .timeline ul li div::before {
@@ -199,15 +199,15 @@ img {
   bottom: 7px;
   width: 0;
   height: 0;
-  border-style: solid;
+  /*border-style: solid;*/
 }
 
 .timeline ul li:nth-child(odd) div { left: 45px; }
 
 .timeline ul li:nth-child(odd) div::before {
   left: -15px;
-  border-width: 8px 16px 8px 0;
-  border-color: transparent #676f7f transparent transparent;
+  /*border-width: 8px 16px 8px 0;
+  border-color: transparent #676f7f transparent transparent;*/
 }
 
 .timeline ul li:nth-child(even) div { left: -439px; }
@@ -293,8 +293,69 @@ footer{
     border-bottom-style: solid;
 }
 
-.navbar-brand img{
-	max-height:50px;
-	height:100%;
-	width:auto;
+/*VOLUNTEERING PHOTO SCROLL
+.scroll-test{
+	margin:4px, 4px;
+	padding:4px;
+	background-color:green;
+	width:500px;
+	height:110px;
+	overflow-x:hidden;
+	overflow-x:auto;
+	text-align:justify;
+}*/
+
+.side-panel{
+	width:25%;
+	position:fixed;
+	top:auto;
+	bottom:40%;
+	right:5%;
+	left:auto;
+}
+
+.pic-window{
+	width:75%;
+}
+
+.gallery-row{
+	display: -ms-flexbox;
+	display:flex;
+	-ms-flex-wrap:wrap;
+	flex-wrap:wrap;
+	padding: 0 4px;
+}
+
+.gallery-column{
+	-ms-flex: 33%;
+	flex: 33%;
+	max-width: 33%;
+	padding: 0 4px;
+}
+
+.gallery-column img{
+	margin-top: 8px;
+	vertical-align: middle;
+	width: 100%;
+}
+
+@media screen and (max-width:800px){
+	.gallery-column{
+		-ms-flex:50%;
+		flex:50%;
+		max-width: 50%;
+	}
+}
+
+@media screen and (max-width: 600px){
+	.gallery-column{
+		-ms-flex:100%;
+		flex:100%;
+		max-width:100%;
+	}
+}
+
+.volunteering{
+	margin-top:60px;
+	text-align:center;
 }
