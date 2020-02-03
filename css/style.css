@@ -293,6 +293,11 @@ footer{
     border-bottom-style: solid;
 }
 
+.navbar-brand img{
+	max-height:50px;
+	height:100%;
+	width:auto;
+}
 /*VOLUNTEERING PHOTO SCROLL
 .scroll-test{
 	margin:4px, 4px;
