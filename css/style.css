@@ -102,21 +102,32 @@ img {
 
 #about{
 	/*background:white;*/
-}
-#about ul li{
-	list-style:none;
-}
-
-#about ul li img{
-	width:2em;
+	background-color:#F5F5F1;
 }
 
 #about p{
-	padding: 1em;
+	padding: 1em 3em;
 }
 
-#education {
+#about h3 {
 	text-align:center;
+}
+
+#about img{
+	height:auto;
+	width:55px;
+}
+
+#web p{
+	padding:1em 0;
+}
+
+#languages p {
+	padding:1em 0;
+}
+
+#tools p{
+	padding:1em 0;
 }
 
 
