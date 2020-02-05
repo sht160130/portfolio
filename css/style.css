@@ -321,6 +321,14 @@ footer{
 	overflow-x:auto;
 	text-align:justify;
 }*/
+.volunteering{
+	text-align:center;
+}
+
+#page-icon{
+	margin: 60px auto 10px auto 10px;
+	text-align:center;
+}
 
 .side-panel{
 	width:25%;
