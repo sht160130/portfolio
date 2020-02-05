@@ -377,7 +377,8 @@ footer{
 	text-align:center;
 }
 
-button a{
+
+button {
 	background-color: #676f7f;
     border: none;
     color: white;
