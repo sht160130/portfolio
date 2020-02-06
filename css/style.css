@@ -428,3 +428,40 @@ textarea{
 form div {
 	text-align:center;
 }
+#projects h1{
+	text-align:center;
+}
+
+#labs a{
+	color:#F5F5F1;
+	background-color:#676f7f;
+	text-decoration:none;
+}
+#labs button{
+	height: 300px;
+	margin:15px 0;
+}
+#labs button:hover{
+	opacity:0.7;
+	text-decoration:none;
+	background-color:#676f7f;
+}
+#analysis a{
+	color:#F5F5F1;
+	background-color:#C38375;
+	text-decoration:none;
+}
+#analysis button{
+	height:300px;
+	margin: 15px 0;
+	background-color:#C38375;
+}
+#analysis button:hover{
+	opacity:0.7;
+	text-decoration:none;
+	background-color:#C38375;
+}
+.project-p{
+	text-align:center;
+	margin:0 7em;
+}
